@@ -42,7 +42,6 @@ function signIn(email) { // A builder that returns a function to set the url to 
         url.search = params.toString();
         let newURL = 'https://accounts.google.com/AccountChooser?source=ogb&continue='+encodeURIComponent(url.toString())+'&Email='+email;
         
-        alert(newURL);
         window.open(newURL);
         window.close(); // Just in case
         

@@ -14,9 +14,7 @@
   },
   "permissions": [
       "activeTab",
-      "*://accounts.google.com/*",
-      "*://*.googleusercontent.com/*",
-      "tabs"
+      "*://accounts.google.com/*"
     ],
   "icons": {
     "16": "logo16.png",
